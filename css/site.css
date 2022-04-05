@@ -1,0 +1,194 @@
+:root {
+    font-family: 'Fira Sans',
+        sans-serif;
+    font-family: 'Grenze Gotisch',
+        cursive;
+
+    font-family: 'Lato',
+        sans-serif;
+    /* fonts */
+    --tc-main-font: 'Josefin Sans', sans-serif;
+    --tc-headerFont: 'Grenze Gotisch', sans-serif;
+    --tc-body: 'Fira Sans', sans-serif;
+
+
+    /* theme colors*/
+    --tc-primary-color: rgb(145, 203, 251);
+    --tc-secondary-color: rgb(66, 148, 186);
+    --tc-highlight-color: rgb(250, 225, 120);
+    --tc-dark-color: rgb(33, 33, 33);
+    --tc-light-color: rgb(222, 238, 251);
+    --tc-background-color: rgba(250, 250, 250, .8);
+
+
+    --tc-font-size: 1.2rem;
+    --tc-font-weight: 400;
+    --tc-line-height: 1.5rem;
+    --tc-title-color: var(--tc-dark-color);
+}
+
+/* element overrides */
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: var(--tc-title-color);
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: var(--tc-main-font);
+    font-size: var(--tc-font-size);
+    font-weight: var(--tc-font-weight);
+    line-height: var(--tc-line-height);
+    color: var(--tc-dark-color);
+    background-color: var(--tc-background-color);
+    --webkit-text-size-adjust: 100%;
+}
+
+/* img height + 14px*/
+header {
+    padding-top: 100px;
+}
+
+.mainHeader {
+    background-image: url(/img/img/DevPortFolioBG_576.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: var(--tc-light-color);
+}
+
+.mainHeader-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mainTitle {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: var(--tc-dark-color)
+}
+
+.imgHeight {
+    height: 30%;
+    width: 30%;
+}
+
+/* make main section take all available space*/
+main {
+    flex: 1 0 auto;
+}
+
+section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section-page {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-page:nth-child(even) {
+    background-color: var(--tc-primary-color);
+}
+
+.section-page:nth-child(odd) {
+    background-color: var(--tc-secondary-color);
+}
+
+.profilePic {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.devicons {
+    font-size: 4rem;
+}
+
+/* sticky footer*/
+footer {
+    flex-shrink: 0;
+}
+
+/* break points */
+@media(min-width: 575.98px) {
+    .mainHeader {
+        background-image: url(/img/img/DevPortFolioBG_767.png);
+        height: 200px;
+    }
+}
+
+@media(min-width: 767.98px) {
+    .mainHeader {
+        background-image: url(/img/img/DevPortFolioBG_992.png);
+        height: 300px;
+    }
+
+    .mainTitle {
+        font-size: 4.5rem;
+        line-height: 3.5rem;
+    }
+
+    .subTitle {
+        font-size: 1.2rem;
+        line-height: 1rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+    }
+}
+
+@media(min-width: 991.98px) {
+    .mainHeader {
+        background-image: url(/img/img/DevPortFolioBG_1200.png);
+        height: 400px;
+    }
+}
+
+@media(min-width: 1199.98px) {
+    .mainHeader {
+        background-image: url(/img/img/DevPortFolioBG_2560.png);
+        height: 500px;
+    }
+
+    .mainTitle {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+
+    .subTitle {
+        font-size: 1.7rem;
+        line-height: 1rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+    }
+}
+
+@media(mid-width: 1399.98) {
+    .mainHeader {
+        background-image: url(/img/img/DevPortFolioBG_2560.png);
+        height: 500px;
+    }
+}
