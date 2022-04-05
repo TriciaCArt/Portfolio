@@ -1,8 +1,5 @@
 :root {
-    font-family: 'Fira Sans',
-        sans-serif;
-    font-family: 'Grenze Gotisch',
-        cursive;
+
 
     font-family: 'Lato',
         sans-serif;
@@ -13,11 +10,11 @@
 
 
     /* theme colors*/
-    --tc-primary-color: rgb(145, 203, 251);
-    --tc-secondary-color: rgb(66, 148, 186);
-    --tc-highlight-color: rgb(250, 225, 120);
-    --tc-dark-color: rgb(33, 33, 33);
-    --tc-light-color: rgb(222, 238, 251);
+    --tc-primary-color: #f2aec7;
+    --tc-secondary-color: #f28db2;
+    --tc-highlight-color: #f22771;
+    --tc-dark-color: #0D0D0D;
+    --tc-light-color: #F2F2F2;
     --tc-background-color: rgba(250, 250, 250, .8);
 
 
@@ -71,7 +68,7 @@ header {
 }
 
 .mainHeader {
-    background-image: url(/img/img/DevPortFolioBG_576.png);
+    background-image: url(/img/bg1200.jpg);
     height: 200px;
     background-repeat: no-repeat;
     background-position: right top;
@@ -136,14 +133,14 @@ footer {
 /* break points */
 @media(min-width: 575.98px) {
     .mainHeader {
-        background-image: url(/img/img/DevPortFolioBG_767.png);
+        background-image: url(/img/bg767.jpg);
         height: 200px;
     }
 }
 
 @media(min-width: 767.98px) {
     .mainHeader {
-        background-image: url(/img/img/DevPortFolioBG_992.png);
+        background-image: url(/img/bg992.jpg);
         height: 300px;
     }
 
@@ -162,14 +159,14 @@ footer {
 
 @media(min-width: 991.98px) {
     .mainHeader {
-        background-image: url(/img/img/DevPortFolioBG_1200.png);
+        background-image: url(/img/bg1200.jpg);
         height: 400px;
     }
 }
 
 @media(min-width: 1199.98px) {
     .mainHeader {
-        background-image: url(/img/img/DevPortFolioBG_2560.png);
+        background-image: url(/img/bg1200.jpg);
         height: 500px;
     }
 
@@ -188,7 +185,7 @@ footer {
 
 @media(mid-width: 1399.98) {
     .mainHeader {
-        background-image: url(/img/img/DevPortFolioBG_2560.png);
+        background-image: url(/img/bg1200.jpg);
         height: 500px;
     }
 }
