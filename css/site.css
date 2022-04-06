@@ -166,7 +166,7 @@ footer {
 
 @media(min-width: 1199.98px) {
     .mainHeader {
-        background-image: url(/img/bg1200.jpg);
+        background-image: url(/img/bg2560.jpg);
         height: 500px;
     }
 
@@ -185,7 +185,7 @@ footer {
 
 @media(mid-width: 1399.98) {
     .mainHeader {
-        background-image: url(/img/bg1200.jpg);
+        background-image: url(/img/bg2560.jpg);
         height: 500px;
     }
 }
