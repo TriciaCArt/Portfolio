@@ -1,27 +1,25 @@
 :root {
 
-
-    font-family: 'Lato',
-        sans-serif;
     /* fonts */
     --tc-main-font: 'Josefin Sans', sans-serif;
     --tc-headerFont: 'Grenze Gotisch', sans-serif;
     --tc-body: 'Fira Sans', sans-serif;
+    --tc-title-font: 'Lato', sans-serif;
 
 
     /* theme colors*/
-    --tc-primary-color: #f2aec7;
-    --tc-secondary-color: #f28db2;
-    --tc-highlight-color: #f22771;
+    --tc-primary-color: #401F31;
+    --tc-secondary-color: #193c40;
+    --tc-highlight-color: #29828c;
     --tc-dark-color: #0D0D0D;
-    --tc-light-color: #F2F2F2;
-    --tc-background-color: rgba(250, 250, 250, .8);
+    --tc-light-color: #d4d4d4;
+    --tc-background-color: #e9e8e4;
 
 
     --tc-font-size: 1.2rem;
     --tc-font-weight: 400;
     --tc-line-height: 1.5rem;
-    --tc-title-color: var(--tc-dark-color);
+    --tc-title-color: var(--tc-light-color);
 }
 
 /* element overrides */
@@ -57,7 +55,7 @@ body {
     font-size: var(--tc-font-size);
     font-weight: var(--tc-font-weight);
     line-height: var(--tc-line-height);
-    color: var(--tc-dark-color);
+    color: var(--tc-light-color);
     background-color: var(--tc-background-color);
     --webkit-text-size-adjust: 100%;
 }
