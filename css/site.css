@@ -65,6 +65,12 @@ header {
     padding-top: 100px;
 }
 
+.btn-color {
+    background-color: #29828c;
+}
+
+.moveIt {}
+
 .mainHeader {
     background-image: url(/img/bg1200.jpg);
     height: 200px;
